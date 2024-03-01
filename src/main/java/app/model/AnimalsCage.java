@@ -11,6 +11,7 @@ public class AnimalsCage {
     private Animal animal1;
     private Animal animal2;
     private Timer timer;
+
     @Autowired
     public AnimalsCage(@Qualifier("cat") Animal animal1,
                        @Qualifier("dog") Animal animal2,
